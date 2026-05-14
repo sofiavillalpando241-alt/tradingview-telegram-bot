@@ -1,1 +1,1 @@
-worker: python main.py && playwright install
+worker: pip install -r requirements.txt && playwright install && python main.py
